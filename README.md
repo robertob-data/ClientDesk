@@ -143,14 +143,14 @@ A estrutura será expandida conforme novas funcionalidades forem implementadas.
 
 ## 🎯 Roadmap
 
-- [ ] Criar banco de dados
-- [ ] Criar tabela de clientes
-- [ ] Implementar cadastro de clientes
-- [ ] Implementar listagem
-- [ ] Implementar busca
-- [ ] Implementar edição
-- [ ] Implementar cancelamento
-- [ ] Criar relacionamento com pagamentos
+- [x] Criar banco de dados
+- [x] Criar tabela de clientes
+- [x] Implementar cadastro de clientes
+- [x] Implementar listagem
+- [x] Implementar busca
+- [x] Implementar edição
+- [x] Implementar cancelamento
+- [x] Criar relacionamento com pagamentos
 - [ ] Implementar cobranças
 - [ ] Implementar registro de pagamentos
 - [ ] Dashboard
