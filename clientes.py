@@ -46,13 +46,12 @@ def listar_clientes():
         cursor = conect.cursor()
 
         cursor.execute('''
-                    SELECT nome, empresa, telefone, email, servico, valor_mensal, dia_vencimento, data_inicio, status, observacoes
+                    SELECT id, nome, empresa, telefone, email, servico, valor_mensal, dia_vencimento, data_inicio, status, observacoes
                     FROM clientes
                         ''')
 
         resposta = cursor.fetchall()
-
-        print(resposta)
+        
         return resposta
     
     except Exception as e:
